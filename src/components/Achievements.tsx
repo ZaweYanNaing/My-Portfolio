@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Trophy } from 'lucide-react';
-
+import aboutPhoto from '../../images/startup.jpg'
 export default function Achievements() {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -35,7 +35,7 @@ export default function Achievements() {
               initial={{ opacity: 0 }}
               animate={inView ? { opacity: 1 } : {}}
               transition={{ delay: 0.3 }}
-              src="/images/startup.jpg"
+              src={aboutPhoto}
               alt="Startup Weekend Award"
               className="w-full md:w-64 h-48 object-cover rounded-lg shadow-md"
             />

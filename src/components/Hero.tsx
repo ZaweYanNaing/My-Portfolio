@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import profile from '../../images/hhp.jpg';
 
 export default function Hero() {
   return (
@@ -10,7 +11,7 @@ export default function Hero() {
           animate={{ scale: 1 }}
           transition={{ duration: 0.5 }}
           src="/images/hhp.jpg"
-          alt="Profile"
+          alt={profile}
           className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-8 object-cover shadow-xl"
         />
         <motion.h1
