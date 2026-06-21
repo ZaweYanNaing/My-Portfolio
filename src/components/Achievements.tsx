@@ -35,7 +35,7 @@ export default function Achievements() {
               initial={{ opacity: 0 }}
               animate={inView ? { opacity: 1 } : {}}
               transition={{ delay: 0.3 }}
-              src="././images/startup.jpg"
+              src="/images/startup.jpg"
               alt="Startup Weekend Award"
               className="w-full md:w-64 h-48 object-cover rounded-lg shadow-md"
             />

@@ -9,7 +9,7 @@ export default function Hero() {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.5 }}
-          src="././images/hhp.jpg"
+          src="/images/hhp.jpg"
           alt="Profile"
           className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-8 object-cover shadow-xl"
         />
