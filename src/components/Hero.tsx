@@ -20,7 +20,7 @@ export default function Hero() {
           transition={{ delay: 0.2 }}
           className="text-3xl md:text-6xl font-bold text-gray-900 mb-6"
         >
-          Passionate Full-Stack Developer & Educator
+          Passionate Developer & Educator
         </motion.h1>
         <motion.p
           initial={{ y: 20, opacity: 0 }}
