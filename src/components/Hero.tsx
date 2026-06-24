@@ -44,11 +44,13 @@ export default function Hero() {
             <ArrowRight size={20} />
           </a>
           <a 
-            href="#contact"
+            href="https://bitbyworld.zaweyannaing.com/"
             className="w-full md:w-auto bg-gray-800 text-white px-8 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-900 transition-colors"
           >
-            Contact Me
+            Study With Me
           </a>
+
+          
         </motion.div>
       </div>
     </section>
